@@ -1,7 +1,7 @@
 - name: my variables ansible file
   hosts: all
   vars:
-    pokemon: "pikachu"
+    pokemon: pikachu
   tasks:
    - name: print msg
      debug:
@@ -13,7 +13,7 @@
     debug: 
       msg: "{{pokemon}}"
     vars:
-    pokemon: ""
+    pokemon: 
 
 
 #global variables
