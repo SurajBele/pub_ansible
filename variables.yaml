@@ -13,7 +13,7 @@
      debug: 
        msg: "{{pokemon}}"
      vars:
-        pokemon: pichu
+       pokemon: pichu
 
 
 #global variables
