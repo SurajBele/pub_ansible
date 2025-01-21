@@ -1,0 +1,9 @@
+- name: my first ansible file
+  hosts: all
+  tasks:
+   - name: print msg
+     debug:
+       msg: "hello this is ansible"
+   - name: print msg
+     debug:
+       msg: "how are you"
