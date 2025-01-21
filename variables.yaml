@@ -5,7 +5,7 @@
   tasks:
    - name: print msg
      debug:
-       msg: "hello this is ansible"
+       msg: "my "
    - name: print msg
      debug:
        msg: "how are you"
