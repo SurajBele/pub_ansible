@@ -12,7 +12,7 @@
    - name: local variables
     debug: 
       msg: "{{pokemon}}"
-      
+    vars:
 
 
 #global variables
