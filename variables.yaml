@@ -10,7 +10,7 @@
      debug:
        msg: "{{pokemon}}"
    - name: local variables
-    debug: 
+      debug: 
       msg: "{{pokemon}}"
       vars:
         pokemon: pichu
