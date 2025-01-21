@@ -8,7 +8,7 @@
        msg: my "{{pokemon}}"
    - name: print msg
      debug:
-       msg: "how are you"
+       msg: "{{pokemon}}"
 
 
 #global variables
