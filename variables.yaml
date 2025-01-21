@@ -1,7 +1,7 @@
 - name: my variables ansible file
   hosts: all
   vars:
-   - pokemon: "pikachu"
+    pokemon: "pikachu"
   tasks:
    - name: print msg
      debug:
