@@ -1,5 +1,6 @@
 - name: my variables ansible file
   hosts: all
+  vars:
   tasks:
    - name: print msg
      debug:
