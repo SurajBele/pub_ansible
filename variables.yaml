@@ -9,7 +9,9 @@
    - name: print msg
      debug:
        msg: "{{pokemon}}"
-   - name: local
+   - name: local variables
+    debug: 
+      msg
 
 
 #global variables
