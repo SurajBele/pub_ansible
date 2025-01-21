@@ -11,7 +11,8 @@
        msg: "{{pokemon}}"
    - name: local variables
     debug: 
-      msg: 
+      msg: "{{pokemon}}"
+      
 
 
 #global variables
