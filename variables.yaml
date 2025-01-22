@@ -16,6 +16,7 @@
        msg: "{{pokemon}}"
      vars:
        pokemon: pichu
+   - name: 
    - name: print prompt
      register: prompt-variable
      debug:
