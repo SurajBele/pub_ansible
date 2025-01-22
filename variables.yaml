@@ -3,6 +3,7 @@
   vars:               #global variable
     pokemon: pikachu
   vars_files:
+   - ./var  
   tasks:
    - name: print msg
      debug:
