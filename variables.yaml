@@ -17,7 +17,8 @@
      vars:
        pokemon: pichu
    - name: run command
-     shell: 
+     shell: hostname
+     
    - name: print prompt
      register: prompt-variable
      debug:
