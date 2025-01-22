@@ -4,7 +4,6 @@
   #   pokemon: pikachu
   vars_files:
    - ./var.txt
-  vars_prompt:
   tasks:
    - name: print msg
      debug:
