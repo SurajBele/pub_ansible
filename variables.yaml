@@ -17,7 +17,7 @@
      vars:
        pokemon: pichu
    - name: print prompt
-      register: prompt-variable
+     register: prompt-variable
       debug:
         msg: "{{name}}" 
   vars_prompt:
