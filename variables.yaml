@@ -2,6 +2,7 @@
   hosts: all
   vars:               #global variable
     pokemon: pikachu
+  vars_files:
   tasks:
    - name: print msg
      debug:
