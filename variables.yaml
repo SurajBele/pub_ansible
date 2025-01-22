@@ -22,10 +22,10 @@
    - name: print
      debug:
         msg: "{{hostname.stdout}}" 
-  vars_prompt:
-    - name: prompt-variable
-      prompt: what is your name?
-      private: false
+  # vars_prompt:
+  #   - name: prompt-variable
+  #     prompt: what is your name?
+  #     private: false
       
     
 
