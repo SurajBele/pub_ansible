@@ -17,7 +17,7 @@
      vars:
        pokemon: pichu
    - name: prompt variable
-     prompt:
+     prompt: 
 
 
 #global variables
