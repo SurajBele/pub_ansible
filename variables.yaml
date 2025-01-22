@@ -18,7 +18,7 @@
        pokemon: pichu
    - name: run command
      shell: hostname
-     register: prompt-variable 
+     register: hostname 
    - name: print prompt
      
      debug:
