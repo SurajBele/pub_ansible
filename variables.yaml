@@ -20,10 +20,10 @@
     - name: prompt variable
       prompt: what is your name?
       private: false
-      register: 
+      register: name
     - name: print prompt
       debug:
-        msg: "{{prompt variable}}"
+        msg: "{{name}}"
 
 
 #global variables
