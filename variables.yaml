@@ -20,7 +20,7 @@
     - name: prompt variable
       prompt: what is your name?
       private: false
-      register: prompt variable
+      register: 
     - name: print prompt
       debug:
         msg: "{{prompt variable}}"
