@@ -21,7 +21,7 @@
       prompt: what is your name?
       private: false
       register: prompt variable
-      
+    - name: print pr
 
 
 #global variables
