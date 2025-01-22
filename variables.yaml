@@ -21,7 +21,7 @@
      register: hostname 
    - name: print
      debug:
-        msg: "{{hostname}}" 
+        msg: "{{hostname.stdout}}" 
   vars_prompt:
     - name: prompt-variable
       prompt: what is your name?
