@@ -20,7 +20,8 @@
     - name: prompt variable
       prompt: what is your name?
       private: false
-    
+      register: prompt variable
+      
 
 
 #global variables
