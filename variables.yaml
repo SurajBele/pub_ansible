@@ -19,10 +19,9 @@
    - name: run command
      shell: hostname
      register: hostname 
-   - name: print prompt
-     
+   - name: print
      debug:
-        msg: "{{name}}" 
+        msg: "{{hostname}}" 
   vars_prompt:
     - name: prompt-variable
       prompt: what is your name?
