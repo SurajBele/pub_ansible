@@ -16,6 +16,8 @@
        msg: "{{pokemon}}"
      vars:
        pokemon: pichu
+   - name: prompt variable
+   
 
 
 #global variables
