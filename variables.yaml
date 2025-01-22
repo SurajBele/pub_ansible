@@ -20,7 +20,7 @@
     - name: prompt variable
       prompt: what is your name?
       private: false
-      
+      ragister
 
 
 #global variables
