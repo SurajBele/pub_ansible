@@ -19,6 +19,7 @@
   vars_prompt:
     - name: prompt variable
       prompt: what is your name?
+      private: false
 
 
 #global variables
