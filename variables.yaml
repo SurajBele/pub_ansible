@@ -1,6 +1,6 @@
 - name: my variables ansible file
   hosts: all
-  vars:
+  vars:               #global variable
     pokemon: pikachu
   tasks:
    - name: print msg
