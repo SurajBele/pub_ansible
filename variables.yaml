@@ -1,7 +1,7 @@
 - name: my variables ansible file
   hosts: all
-  vars:               #global variable
-    pokemon: pikachu
+  # vars:               #global variable
+  #   pokemon: pikachu
   vars_files:
    - ./var.txt
   tasks:
