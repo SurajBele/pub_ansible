@@ -17,6 +17,8 @@
      vars:
        pokemon: pichu
    - name: prompt variable
+     vars_prompt:
+     
      prompt: what is your name?
 
 
