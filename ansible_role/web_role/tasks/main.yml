@@ -10,6 +10,7 @@
       copy:
         src: index.html
         dest: /var/www/html/index.html
+        
 
     # - name: start the httpd
     #   systemd:
