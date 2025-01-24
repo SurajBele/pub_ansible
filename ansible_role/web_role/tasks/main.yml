@@ -6,7 +6,7 @@
         - name: httpd
           state: latest
       when: ansible_os_family == "RedHat"
-    - 
+    - name: start the httpd
       systemd:
         - name: httpd
           state: restarted
