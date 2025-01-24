@@ -1,5 +1,3 @@
-
-  tasks:
     - name: install httpd
       package:
         - name: "{{app}}"
