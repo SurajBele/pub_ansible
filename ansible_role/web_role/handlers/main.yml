@@ -1,5 +1,5 @@
 - name: restart the httpd
   systemd:
-    - name: "{{app}}"
-      state: restarted
+    name: "{{app}}"
+    state: restarted
   when: ansible_os_family == "RedHat"
