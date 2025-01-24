@@ -3,7 +3,7 @@
   tasks:
     - name: install httpd
       package:
-        - name: httpd
+        - name: {{app}}
           state: latest
       when: ansible_os_family == "RedHat"
     - name: start the httpd
