@@ -6,4 +6,5 @@
         - name: httpd
           state: latest
       when: ansible_os_family == "RedHat"
-      sys
+      systemd:
+        - name: httpd
