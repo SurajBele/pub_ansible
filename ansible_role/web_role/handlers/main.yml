@@ -1,2 +1,5 @@
----
-# handlers file for web_role
+- name: start the httpd
+    systemd:
+    - name: "{{app}}"
+          state: restarted
+      when: ansible_os_family == "RedHat"
