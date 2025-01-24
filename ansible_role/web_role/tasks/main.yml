@@ -1,4 +1,5 @@
 - name: this is role 
   hosts: all
   tasks:
-    - name: print the your
+    - name: install httpd
+    
