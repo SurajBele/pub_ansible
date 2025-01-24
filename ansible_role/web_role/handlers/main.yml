@@ -1,4 +1,4 @@
-- name: start the httpd
+- name: REstart the httpd
     systemd:
     - name: "{{app}}"
       state: restarted
