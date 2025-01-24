@@ -5,8 +5,8 @@
   when: ansible_os_family == "RedHat"
 - name: deploy webpage
   copy:
-  src: index.html
-  dest: /var/www/html/index.html
+    src: index.html
+    dest: /var/www/html/index.html
   notify:
   - restart the httpd
 
