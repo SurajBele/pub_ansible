@@ -1,4 +1,4 @@
 - name: deploy httpd using ansible role
   hosts: all
   roles:
-   - web
+   - web_role
