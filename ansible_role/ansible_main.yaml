@@ -1,2 +1,2 @@
 - name: deploy httpd using ansible role
-  hosts
+  hosts: all
