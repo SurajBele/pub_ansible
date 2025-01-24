@@ -1,4 +1,4 @@
 - name: this is role 
   hosts: all
   tasks:
-    - name: 
+    - name: print the your
