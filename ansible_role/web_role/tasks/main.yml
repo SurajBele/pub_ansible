@@ -8,4 +8,4 @@
       when: ansible_os_family == "RedHat"
       systemd:
         - name: httpd
-          state: started
+          state: restarted
