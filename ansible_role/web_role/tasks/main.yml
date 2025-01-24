@@ -1,4 +1,4 @@
-    - name: install httpd
+- name: install httpd
       package:
         - name: "{{app}}"
           state: latest
