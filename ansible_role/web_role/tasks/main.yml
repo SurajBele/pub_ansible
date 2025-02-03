@@ -16,4 +16,3 @@
     #     - name: "{{app}}"
     #       state: restarted
     #   when: ansible_os_family == "RedHat"
-- name: ins
